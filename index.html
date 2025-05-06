@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disease Info Finder</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Disease Info</div>
+    <ul>
+      <li onclick="navigate('home')">Home</li>
+      <li onclick="navigate('list')">List of Diseases</li>
+      <li onclick="navigate('about')">About</li>
+    </ul>
+  </nav>
+
+  <div class="container" id="home">
+    <h1>Disease Information Finder</h1>
+    <input type="text" id="diseaseInput" placeholder="Enter disease name..." />
+    <button onclick="searchDisease()">Search</button>
+    <div class="output" id="output"></div>
+    <div class="caution">
+      <p><strong>Note:</strong> This information is for educational purposes only. Always seek medical advice from a healthcare professional if symptoms persist or worsen.</p>
+    </div>
+  </div>
+
+  <div class="container" id="list" style="display: none">
+    <h1>Common Diseases</h1>
+    <ul>
+      <li>Diabetes</li>
+      <li>Hypertension</li>
+      <li>Asthma</li>
+      <li>Malaria</li>
+      <li>COVID-19</li>
+      <li>Tuberculosis</li>
+      <li>Hepatitis B</li>
+      <li>Dengue</li>
+      <li>Chickenpox</li>
+      <li>Measles</li>
+    </ul>
+  </div>
+
+  <div class="container" id="about" style="display: none">
+    <h1>About This Website</h1>
+    <p>This web application provides brief, reliable information about diseases including their description, symptoms, causes, and medications. It is designed to be a quick reference guide for educational purposes.</p>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+</html>
