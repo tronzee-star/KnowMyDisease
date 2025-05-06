@@ -58,7 +58,37 @@ const diseases = {
     symptoms: "Fever, cough, runny nose, inflamed eyes, skin rash.",
     causes: "Spread by respiratory droplets or direct contact with infected nasal secretions.",
     medication: "No specific antiviral treatment; supportive care only."
-  }
+  },
+     "flu": {
+        description: "A common viral infection that can be deadly, especially in high-risk groups.",
+        symptoms: "Fever, chills, muscle aches, cough, congestion, runny nose, fatigue.",
+        causes: "Influenza viruses spread through respiratory droplets.",
+        medication: "Antiviral medications like oseltamivir, rest, and fluids."
+      },
+      "anemia": {
+        description: "A condition in which the blood doesn't have enough healthy red blood cells.",
+        symptoms: "Fatigue, weakness, pale skin, shortness of breath.",
+        causes: "Iron deficiency, chronic diseases, blood loss.",
+        medication: "Iron supplements, vitamin B12, folic acid."
+      },
+      "typhoid": {
+        description: "A bacterial infection due to Salmonella typhi, spread through contaminated food/water.",
+        symptoms: "High fever, weakness, stomach pain, headache, and loss of appetite.",
+        causes: "Ingesting food or drink contaminated by infected feces.",
+        medication: "Antibiotics like ciprofloxacin and azithromycin."
+      },
+      "common cold": {
+        description: "A viral infection of your nose and throat (upper respiratory tract).",
+        symptoms: "Runny nose, sore throat, cough, congestion, slight body aches.",
+        causes: "Various viruses, commonly rhinoviruses.",
+        medication: "Over-the-counter cold medications, rest, hydration."
+      },
+      "appendicitis": {
+        description: "An inflammation of the appendix, often requiring surgery.",
+        symptoms: "Sudden pain on the right side of the lower abdomen, nausea, vomiting, fever.",
+        causes: "Blockage of the appendix often by stool, a foreign body, or cancer.",
+        medication: "Surgery (appendectomy), antibiotics."
+      }
 };
 
   function searchDisease() {
